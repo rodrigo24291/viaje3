@@ -1,0 +1,164 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+p{text-align: justify;}
+
+.ini{
+    margin-bottom: 2rem;
+}
+
+.contenedor{ max-width: 1200px;
+margin: 0px auto;
+}
+
+
+@media screen and (max-width:779px){
+    
+    .contenedor{padding: 0px 10px;}
+
+    .barra{padding: 0px;}
+}
+
+img{max-width: 100%;}
+
+.barra{display: flex;
+flex-direction: column;
+
+}
+#nav{
+    display: flex;
+    flex-direction: column;
+}
+#nav a{
+    flex: 1;
+text-decoration: none;
+background-color: pink;
+color: white;
+padding: 1rem;
+text-align: center;
+font-size: 1.3rem;
+}
+
+@media screen and (min-width:780px){
+
+    #nav{display: flex;
+    flex-direction: row;
+    
+    }
+
+}
+
+#nav a:hover{
+    background-color: rgb(89, 89, 248);
+}
+
+.entrada h2{font-size: 1.8rem;
+color: rgb(111, 111, 252);
+margin: 3rem 0px;
+}
+
+.entrada p{
+
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.boton{text-decoration: none;
+background-color: rgb(124, 124, 235);
+display: inline-block;
+padding: .5rem 3.4rem;
+font-size: 1.3rem;
+color: white;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+.boton:hover{
+
+    background-color: rebeccapurple;
+    transition: background 5000ms;
+}
+
+.otras-entradas ul{padding: 0px;}
+
+.otras-entradas ul li{
+
+    list-style: none;
+    
+    
+
+}
+.otras-entradas ul li a{
+    display: block;
+    padding: .7rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: blue;
+}
+.otras-entradas ul li a:hover{
+    background-color: rgb(115, 115, 230);
+    color: white;
+}
+
+.footer-sitio{
+display: flex;
+flex-direction: column;
+background-color: palevioletred;
+
+}
+
+.footer-sitio h2{ text-align: center;
+color: white;
+font-size: 2rem;
+font-weight: bold;
+}
+
+.footer-sitio p{text-align: center;
+font-size: 1.3rem;
+color: white;
+}
+nav{display: flex;
+margin-bottom:1rem ;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+flex: 1;
+}
+
+.copyright{background-color: rgb(192, 66, 192);
+padding: 1.3rem;
+margin: 0px;
+}
+
+
+
+@media screen and (min-width:780px){
+    article img{
+        float:left;
+        width: 30%;
+        margin-right: 30px;
+        
+    }
+article p{
+    padding-left: 10px;
+    
+}
+
+}
+
+.contenido-principal{
+    margin: 0px 1rem;
+}
+
+.sidebar{
+    margin: 1.4rem 0px;
+}
